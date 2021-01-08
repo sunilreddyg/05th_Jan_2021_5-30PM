@@ -20,6 +20,7 @@ public class RobotB {
 		System.out.println("Stop Walking");
 	}
 	
+	//Main method provide executable status to class.
 	public static void main(String args[])
 	{
 		new RobotB().Start_Walk();

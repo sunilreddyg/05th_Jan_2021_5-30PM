@@ -11,5 +11,5 @@ public class RobotA
 	{
 		System.out.println("RobotA turned off");
 	}
-	
+
 }
