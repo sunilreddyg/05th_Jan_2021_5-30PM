@@ -3,7 +3,8 @@ package calling_methods_from_differnet_package;
 import mq.corejava.instantmethods.RobotD;
 import mq.corejava.staticmethods.InputDevices;
 
-public class Run_From_Differnt_Package {
+public class Run_From_Differnt_Package 
+{
 
 	public static void main(String[] args) 
 	{
@@ -19,12 +20,10 @@ public class Run_From_Differnt_Package {
 		InputDevices.keyboard();
 		InputDevices.Mouse();
 		
-		//Create object for Instant methods to call
-		RobotD obj=new RobotD();
-		obj.Start_walk();
-		obj.Stop_Walking();
-		
-
+		//Create object for class
+		RobotD ref=new RobotD();
+		ref.Start_walk();
+		ref.Stop_Walking();
 	}
 
 }
