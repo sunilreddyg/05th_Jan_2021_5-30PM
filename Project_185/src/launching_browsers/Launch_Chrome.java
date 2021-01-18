@@ -39,6 +39,8 @@ public class Launch_Chrome {
 		
 		//Close browser window
 		chrome.close();
+		
+		
 	}
 
 }

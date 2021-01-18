@@ -2,7 +2,8 @@ package launching_browsers;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Launching_Firefox {
+public class Launching_Firefox 
+{
 
 	public static void main(String[] args)
 	{
@@ -35,6 +36,7 @@ public class Launching_Firefox {
 		
 		//Browser termination using webdriver command
 		firefox.close();
+		System.out.println("firefox closed successfull");
 		
 		
 

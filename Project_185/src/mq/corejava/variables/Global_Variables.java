@@ -7,9 +7,9 @@ public class Global_Variables
 	 * inside class and outside method
 	 * 
 	 */
-	String name="MQ-DSNR";     //Instant method access outside class with object creation
+	String name="MQ-DSNR";     //Instant variables access outside class with object creation
 	public int Age=20;			
-	static double Course_fee=12000.00;  //Static method access without object creation
+	static double Course_fee=12000.00;  //Static variables access without object creation
 	
 
 	//Instant method from public class
