@@ -9,7 +9,7 @@ public class Link_At_Listbox {
 	public static void main(String[] args) throws Exception 
 	{
 		
-		
+
 		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://hdfcbank.com");
@@ -20,6 +20,9 @@ public class Link_At_Listbox {
 	    Thread.sleep(2000);
 	    driver.findElement(By.xpath("//li[@value='5'][contains(.,'EMI')]")).click();
 
+	    
+	    
+	    
 	}
 
 }
