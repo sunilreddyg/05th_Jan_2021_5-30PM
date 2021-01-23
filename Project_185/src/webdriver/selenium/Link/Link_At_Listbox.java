@@ -19,7 +19,18 @@ public class Link_At_Listbox {
 	    driver.findElement(By.linkText("Select Product Type")).click();
 	    Thread.sleep(2000);
 	    driver.findElement(By.xpath("//li[@value='5'][contains(.,'EMI')]")).click();
-
+	    Thread.sleep(4000);
+	    
+	    driver.findElement(By.linkText("Select Product")).click();
+	    Thread.sleep(2000);
+	    driver.findElement(By.xpath("//li[@value='3'][contains(.,'Lifestyle')]")).click();
+	    
+	    
+	    
+	    
+	    
+	    
+	    
 	    
 	    
 	    

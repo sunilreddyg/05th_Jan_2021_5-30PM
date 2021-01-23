@@ -26,8 +26,8 @@ Html Source for dropdown:-->
 				//Instant selection method
 				new Select(WebElement).selectByvisibleText("Optionname);
 			
-					Select class package:--->
-					org.openqa.selenium.support.ui
+			Select class package:--->
+			org.openqa.selenium.support.ui
 					
 	  Note:--> At Webpages most of listboxes look like
 	  dropdowns,Those listboxes we can select
@@ -37,9 +37,6 @@ Html Source for dropdown:-->
 				Step1:-->   First click to open list of items
 				step2:--> 	Second click to select one of item from list.
 							
-							
-				
-					
 =======================================================
 --------------------------------
 SelectByVisibleText:--->
@@ -60,7 +57,7 @@ Html Source:-->
 			
 Example:---> Select Feb option  from above html source using Visible text
 
-new Select(driver.findElement(By.id("month"))).selectByvisibletext("Feb");
+	new Select(driver.findElement(By.id("month"))).selectByvisibletext("Feb");
 
 ----------------------------
 Selectbyvalue:--->
