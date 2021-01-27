@@ -189,4 +189,19 @@ getAllSelectedOptions:-->
 			Note:--> Before use this command make sure dropdown is multiple
 					 option selection type.
 	
+getFirstSelectedElement:-->
 
+		=> This method  works for single option and multiple option selection type
+		=> Method return first selected option at dropdown
+		=> Method return first selected option in webElement format, inorder to get
+				name of option follow gettext method.
+				
+			WebElement State_DD=driver.findElement(By.id("StateID"));
+	    	Select State_DD_Selection=new Select(State_DD);
+	    	String Option_name=State_DD_Selection.getFirstSelectedOption().getText();
+	    	System.out.println("populated dropdown option name is => "+Option_name);
+	    	
+				
+				
+				
+				
