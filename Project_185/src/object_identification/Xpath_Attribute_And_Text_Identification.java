@@ -8,7 +8,7 @@ public class Xpath_Attribute_And_Text_Identification {
 
 	public static void main(String[] args) throws Exception {
 		
-		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
+		
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.naukri.com/free-job-alerts");
 		driver.manage().window().maximize();

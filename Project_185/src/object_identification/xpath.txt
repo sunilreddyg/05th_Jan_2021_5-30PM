@@ -9,7 +9,7 @@ Xpath:-->
 
 
 Xpath Attribute :-->
-	Below syntax idefity location at webpage using unique attributes..
+	Below syntax identify location at webpage using unique attributes..
 
 	//tagname[@Attributename =  'Attribute value']
 	//*[@Attributename =  'Attribute value']
