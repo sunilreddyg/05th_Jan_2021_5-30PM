@@ -58,9 +58,7 @@ Variable Inititation:-->
 			
 		int x,y,z;
 		x=100;y=200;z=300;
-		
-		
-		
+			
 ==========================================================>>
 Variable Declaration to follow:--->
 
@@ -72,7 +70,7 @@ Variable Declaration to follow:--->
 Variable Declaration not-to follow:-->
 	=> Numbers+characters
 	=> Don't include space
-	=> Don't include specal characters.
+	=> Don't include special characters.
 
 --------------------------------------------------------------------------------------------------------------------------->>>
 
@@ -81,7 +79,7 @@ Types of variables available in Java?...>
 	
 	1.Local Variable
 	2.Instant variable
-	3.Class Variable
+	3.Class Variable  [Static Variables]
 
 
 1.Local Variable:--->
@@ -137,10 +135,10 @@ Instant Variable:---->
 	Note:--. We should create object to access instant variable from outside class
 		
 		==>Object creation to access instant variable
-			classname ref=new classname();
-			datatype val=ref.variablename;
+		   classname ref=new classname();
+		   datatype val=ref.variablename;
 			
-			Note:--> All variable return values.
+			Note:--> All variables return values.
 
 	Syntax:--->
 
@@ -167,7 +165,7 @@ Instant Variable:---->
 
 		public Hotmailhomepage
 		{
-			   WebDriver driver;
+			   WebDriver driver=null;
 
 				public void launchApplication()
 				{
@@ -189,28 +187,25 @@ Instant Variable:---->
 		}
 
 ------------------------------------------------------------------------------------------------------>>>
-class variable:--> class variables are similar to instant variables, only diff we declare
-	           class variables with static keyword.
+class variable:--> class variables are similar to instant variables, 
+					only diff we declare class variables with static keyword.
 	
 		Note:--> static variables we can access without object creation.
-			Datatype variable=Classname.variablename;
+			Object variable=Classname.variablename;
 
-
-
-	
 	Syntax:--->
 	
 		public Phone
 		{     
 				public static int price=100;
 	
-				public void  Landphones
+				public void  Landphones()
 				{
 					system.out.println(price);
 					//Variable information can be used 
 				}
 
-				public static void mobile
+				public static void mobile()
 				{
 					system.out.println(price);
 					//Variable Inforamtion can be used 
