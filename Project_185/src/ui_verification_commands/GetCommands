@@ -68,6 +68,21 @@ getPageSource:--->
 		
 			String pageSource=driver.getpageSource();
 			System.out.println(pageSoruce);	 
+=============================================================
+getwindowsHandle:-->
+			Method return active window dynamic ID
+			[Using window we can switch between any two windows]
+			[This window id different from one browser to another browser]
+			
+			String Dynamic_Window=driver.getWindowHandle();
+			System.out.println(Dynamic_Window);
+=====================================================================
+getWindowHandles:-->
+			Method return all window dynamic id's currently 
+			open using webdriver code.
+			
+			Set<String> All_windowIDs=driver.getWindowHandles();
+			System.out.println(All_windowIDs);		
 ==================================================================
 getText:-->
 		
@@ -99,8 +114,7 @@ getText:-->
 getAttribute("propertyname");
 	
 	Method capture runtime attribute value using attributename.
-				  
-				  
+				    
 		Syntax:-->  
 		  	WebElement Element=driver.findElement(By.id("x"));
 		  	String value=Element.getAttribute("attributename");
