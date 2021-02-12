@@ -145,7 +145,6 @@ getCssvalue:-->
 						background-color
 						text-alignment				
 		Syntax:-->
-				
 			//Identify Element
 			WebElement Element=driver.findElement(By.id("x"));
 			String text_font_size=Element.getCssvalue("font-size");	
@@ -189,7 +188,7 @@ getsize:-->
 					
 					int obj_width=Obj_dimension.getWidth();
 					System.out.println("Object width is "+obj_width);	
-	
+=======================================================================
 	
 	
 	
